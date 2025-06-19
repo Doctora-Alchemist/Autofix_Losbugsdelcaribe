@@ -20,6 +20,27 @@
         <!-- Inicio Header -->
         <!-- Fin Header -->
         <!-- Inicio Form1 -->
+            <section id="seccion-formulario">
+                <h2>Solicitar Reparación</h2>
+                <form id="formulario-reparacion">
+                    
+                    <label for="nombre-cliente">Nombre del Cliente</label>
+                    <input type="text" id="nombre-cliente" name="nombre-cliente">
+
+                    <label for="tipo-reparacion">Tipo de Reparación</label>
+                    <select id="tipo-reparacion" name="tipo-reparacion">
+                        <option value="">Selecciona un servicio</option>
+                        <option value="cambio-aceite">Cambio de aceite</option>
+                        <option value="revision-frenos">Revisión de frenos</option>
+                        <option value="diagnostico-electrico">Diagnóstico eléctrico</option>
+                        <option value="otro">Otro (describir abajo)</option>
+                    </select>
+
+                    <label for="descripcion">Descripción</label>
+                    <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+                    
+                    <label for="agendar-cita">Agendar Cita</label>
+                    <input type="date" id="agendar-cita" name="agendar-cita">
         <!-- Fin Form1 -->
         <!-- Inicio Form2 -->
         <!-- Fin Form2 -->        
